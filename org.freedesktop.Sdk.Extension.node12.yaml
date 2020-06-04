@@ -26,6 +26,11 @@ modules:
       - type: archive
         url: https://nodejs.org/dist/v12.16.0/node-v12.16.0.tar.xz
         sha256: b8c90637473fce4444a0b4fdae2c1560a1cf9f5959fdf9670541fc52868cf925
+        x-checker-data:
+          type: html
+          url: https://nodejs.org/dist/latest-v12.x/
+          url-pattern: (node-v[\d\.-]+.tar.xz)
+          version-pattern: node-v([\d\.-]+).tar.xz
     config-opts:
       - '--openssl-use-def-ca-store'
       - '--shared-openssl'
