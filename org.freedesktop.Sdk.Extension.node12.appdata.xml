@@ -9,4 +9,7 @@
     <p>This SDK extension allows you to build and run Node.js-based apps.</p>
   </description>
   <url type="homepage">https://nodejs.org/</url>
+  <releases>
+    <release version="12.18.0" date="2020-06-02"/>
+  </releases>
 </component>
