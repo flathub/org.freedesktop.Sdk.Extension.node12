@@ -10,6 +10,7 @@
   </description>
   <url type="homepage">https://nodejs.org/</url>
   <releases>
+    <release version="12.18.2" date="2020-06-30"/>
     <release version="12.18.1" date="2020-06-17"/>
     <release version="12.18.0" date="2020-06-02"/>
   </releases>
