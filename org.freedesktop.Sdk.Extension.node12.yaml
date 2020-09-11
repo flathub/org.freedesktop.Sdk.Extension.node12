@@ -10,6 +10,7 @@ build-options:
   prefix: /usr/lib/sdk/node12
   prepend-path: /usr/lib/sdk/node12/bin
   prepend-ld-library-path: /usr/lib/sdk/node12/lib
+  strip: true
 cleanup:
   - /bin/pip*
   - /bin/python*config
