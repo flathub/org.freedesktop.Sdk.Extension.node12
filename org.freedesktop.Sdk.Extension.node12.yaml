@@ -25,14 +25,14 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/latest-v12.x/node-v12.18.4.tar.xz
-        sha256: 25f03cb18e53b6d0959d0c219e701a85eb4693f526bdda7c72bc6199b364f609
+        url: https://nodejs.org/dist/latest-v12.x/node-v12.19.0.tar.xz
+        sha256: 3b671c45c493f96d7e018c15110cdbafa4478e5e5cfc9e6eec83cea9e6b551e1
         x-checker-data:
           type: html
           url: https://nodejs.org/dist/latest-v12.x/
           url-pattern: (node-v[\d\.-]+.tar.xz)
           version-pattern: node-v([\d\.-]+).tar.xz
-        size: 23679924
+        size: 23819884
     config-opts:
       - --openssl-use-def-ca-store
       - --shared-openssl
