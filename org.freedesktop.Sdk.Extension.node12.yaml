@@ -25,8 +25,8 @@ modules:
   - name: node
     sources:
       - type: archive
-        url: https://nodejs.org/dist/latest-v12.x/node-v12.22.3.tar.xz
-        sha256: 350211fae3a688f41889680c8efcf689353a2e36b62b9dc2b408340986857190
+        url: https://nodejs.org/dist/latest-v12.x/node-v12.22.4.tar.xz
+        sha256: 44cd4eab131e5282fc923e9e720d983a0b44c12e4aa4f6c3598dc97ae1e4cd4c
         x-checker-data:
           type: html
           url: https://nodejs.org/dist/latest-v12.x/
